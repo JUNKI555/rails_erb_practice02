@@ -1,0 +1,1 @@
+{"id":"index.html","dependencies":[{"name":"./application.js","dynamic":true,"resolved":"/app/app/javascript/application.js","parent":"/app/app/javascript/index.html"}],"generated":{"html":"<script src=\"/packs/3344a6d59eef8632c9d14100edef0b15.js\"></script>\n"},"sourceMaps":null,"error":null,"hash":"8f307ce0346547b85bb90a5a45e0145f","cacheData":{}}
