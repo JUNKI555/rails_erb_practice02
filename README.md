@@ -12,7 +12,7 @@
 
 ## Reference sources
 - docker-compose 下で rails new して Rails6+Simpacker+Parcel 環境を作る | 北山淳也 | zenn
-  - http
+  - https://zenn.dev/junki555/articles/b8843631113c2d6be01a
 - 【Rails/JS】Simpackerを使って、お手軽にモダンな開発環境を整える | しきゆらの備忘録
   - https://shikiyura.com/2019/11/rails-with-parcel/
 - Webpackerはもう要らない〜 Simpacker | Qiita
