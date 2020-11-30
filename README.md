@@ -27,3 +27,18 @@
   - https://ja.parceljs.org/cli.html
 - Webpacker移行ガイド / Migrating from Webpacker to Simpacker | SlideShare
   - https://speakerdeck.com/iguchi1124/migrating-from-webpacker-to-simpacker
+
+## add TailwindCSS
+### memo
+yarn add postcss postcss-cli tailwindcss postcss-modules postcss-nested autoprefixer --dev
+
+### build
+`yarn parcel build --out-dir public/packs --public-url /packs app/assets/stylesheets/**.css`
+
+## Reference sources
+- Parcel + TailwindCSS(+Simpacker) でドハマりした話 | 北山淳也 | zenn
+  - https://zenn.dev/junki555/articles/de8a9df90d50e2
+- parcel ~ はじめの一歩 ~ | Qiita
+  - https://qiita.com/kunio_takahashi/items/550a3fec1a4d3c1b4665
+- PostCSSもサクッと導入！話題のビルドツール「Parcel」を試してみた | ペパボテックブログ
+  - https://tech.pepabo.com/2018/01/11/hands-on-parcel/
