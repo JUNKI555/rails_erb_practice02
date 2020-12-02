@@ -2,6 +2,9 @@
   "modules": true,
   "plugins": {
     "tailwindcss": {},
-    "postcss-nested": {}
+    "postcss-nested": {},
+    "postcss-modules": {
+      "generateScopedName": "[name]__[local]",
+    }    
   }
 }
