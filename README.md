@@ -33,7 +33,7 @@
 yarn add postcss postcss-cli tailwindcss postcss-modules postcss-nested autoprefixer --dev
 
 ### build
-`yarn parcel build --out-dir public/packs --public-url /packs app/assets/stylesheets/**.css`
+`yarn parcel build --out-dir public/packs --public-url /packs app/assets/stylesheets/**.css --no-content-hash --no-source-maps`
 
 ## Reference sources
 - Parcel + TailwindCSS(+Simpacker) でドハマりした話 | 北山淳也 | zenn
