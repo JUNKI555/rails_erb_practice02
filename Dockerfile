@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM ruby:2.7
 RUN set -x && curl -sL https://deb.nodesource.com/setup_14.x | bash -
 
 RUN set -x && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
