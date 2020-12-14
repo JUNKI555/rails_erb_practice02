@@ -198,3 +198,36 @@ http://localhost:3000/letter_opener
 
 and access "Confirm my account"
 sign-up name, email and password(password must be 6characters)
+
+## devise Reference sources
+- パーフェクトRails著者が解説するdeviseの現代的なユーザー認証のモデル構成について - joker1007’s diary
+  - https://joker1007.hatenablog.com/entry/2020/08/17/141621
+  - https://github.com/joker1007/devise_sample
+- 記事紹介：devise のモデルを分割して単一責任の原則を導入する | 北山淳也 | zenn
+  - https://zenn.dev/junki555/articles/0b211d19a294ad
+- gem devise の module 翻訳 | 北山淳也 | zenn
+  - https://zenn.dev/junki555/articles/dc41580eb3daec
+- devise の複数モデル管理を試みる | Octo's blog
+  - https://ccbaxy.xyz/blog/2020/03/20/ruby33/#devise-nobiyuwozuo-cheng
+- Rails deviseの使い方（rails6版） | Qiita
+  - https://qiita.com/cigalecigales/items/16ce0a9a7e79b9c3974e
+- Rails5 Deviseのログイン判定 | ゆるりエンジニア
+  - https://yuruli.info/rails5-how-to-get-frequency-of-user-login/
+- deviseのTwitterログイン時はメール認証とメール送信をスキップする | Qiita
+  - https://qiita.com/tegnike/items/a655c5ee7f71fb5bef08
+- devise | GitHub
+  - https://github.com/heartcombo/devise
+- 【Rails】deviseの使い方をマスターしてログイン認証機能を実装しよう！ | Pikawaka
+  - https://pikawaka.com/rails/devise
+
+## public_uid Reference sources
+- PublicUid | GitHub
+  - https://github.com/equivalent/public_uid
+- 【Rails6】deviseで会員登録時に乱数（ランダムな文字列）を生成 | GitHub
+  - https://asalworld.com/1472/
+- 【Rails】URLでidの代わりにランダムな文字列を表示させる | Qiita
+  - https://qiita.com/at-946/items/03a5d03c8865ac4cbd2c
+- Railsで主キーをid以外に設定し、ほかのテーブルとアソシエーションを結ぶ | Qiita
+  - https://qiita.com/tanutanu/items/6c53b5290eaa9bf905d3
+- 主キーがid以外のテーブルを外部キーに設定する方法 | きまぐれ備忘録
+  - https://shara3.blogspot.com/2018/01/rails-id.html
